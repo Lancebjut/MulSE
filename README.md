@@ -1,6 +1,6 @@
 # MulSE: Integrating Dual-Path Modeling and Global Attention for Multi-Channel Speech Enhancement
 
-This repository contains the official implementation of **MulSE**.
+This is the official implementation of **MulSE** submitted to IEEE Signal Processing Letter. We would release the code one the paper is accepted
 
 ## Highlights
 
