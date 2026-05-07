@@ -2,7 +2,7 @@
 
 This is the official implementation of **MulSE** submitted to IEEE Signal Processing Letter. We would release the code once the paper is accepted.
 <p align="center">
-  <img src="MulSE.png" width="850">
+  <img src="MulSE.png" width="750">
 </p>
 
 
