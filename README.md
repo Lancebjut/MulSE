@@ -8,7 +8,6 @@ This repository contains the official implementation of **MulSE**.
 - Global attention, cross-band, and narrow-band modeling
 - Efficient dual-path spatio-spectral modeling
 - Low computational complexity with competitive performance
-- Real-time and resource-constrained friendly
 
 ---
 
