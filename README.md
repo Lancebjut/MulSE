@@ -4,7 +4,9 @@ This is the official implementation of **MulSE** submitted to IEEE Signal Proces
 <p align="center">
   <img src="MulSE.png" width="750">
 </p>
-
+<p align="center">
+  <img src="MulSE_blocks.png" width="750">
+</p>
 
 ## Highlights
 
