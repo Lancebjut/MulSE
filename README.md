@@ -12,7 +12,6 @@ This is the official implementation of **MulSE** submitted to IEEE Signal Proces
 
 - Transformer-free MCSE framework
 - Global attention, cross-band, and narrow-band modeling
-- Efficient dual-path spatio-spectral modeling
 - Low computational complexity with competitive performance
 
 ---
@@ -23,10 +22,7 @@ This is the official implementation of **MulSE** submitted to IEEE Signal Proces
 
 We recommend:
 
-- Python == 3.10
-- PyTorch >= 2.0
+- Python == 3.9
+- PyTorch >= 2.5
 
-2. Install dependencies:
 
-```bash
-pip install -r requirements.txt
