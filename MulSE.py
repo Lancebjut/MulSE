@@ -253,7 +253,7 @@ class Attention(nn.Module):
         self.activation = nn.SiLU()
         self.spatial_gating_unit = LKA(d_model//2, dilation)
         self.proj_2 = nn.Conv1d(d_model//2, d_model, 1)
-        self.norm = nn.InstanceNorm1d(d_model)  # 归一化层
+        self.norm = nn.InstanceNorm1d(d_model)  
 
     def forward(self, x):
         shorcut = x
@@ -323,10 +323,10 @@ if __name__ == '__main__':
                   num_layers=5
                   ).cuda()
 
-    with FlopCounterMode(display=False) as fcm:  # display=False 表示不直接显示 FLOPs 的中间结果
+    with FlopCounterMode(display=False) as fcm: 
         y = model(x)
         print(y.shape)
-        flops_forward_eval = fcm.get_total_flops()  # 获取前向传播完成后累计的 FLOPs
+        flops_forward_eval = fcm.get_total_flops()  
     params_eval = sum(param.numel() for param in model.parameters())
     print(f"flops_forward={flops_forward_eval / 1e9:.3f}G")
     print(f"Avg_FLOPs={flops_forward_eval / 1e9/dur:.3f}G/s, params={params_eval / 1e6:.3f} M")
